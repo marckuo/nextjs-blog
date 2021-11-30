@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../../components/Layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
+import utilStyles from '../../styles/utils.module.css'
 import Date from '../../components/Date'
 
 export default function Post({ postData }) {
